@@ -8,13 +8,13 @@ int main() {
     cout << "Enqueue: ";
     for (int i = 0; i < 5; ++i) {
         cin >> num;
-        q.push(num);  // enqueue
+        q.push(num);
     }
 
     cout << "Dequeued: ";
     while (!q.empty()) {
-        cout << q.front() << " ";  // print front element
-        q.pop();                   // dequeue
+        cout << q.front() << " ";
+        q.pop();                
     }
     cout << endl;
 
